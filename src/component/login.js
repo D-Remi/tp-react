@@ -2,12 +2,12 @@ import React from 'react';
  
 function Login() {
   const state = {
-    myInputEmailValue: "",
-    myInputPasswordValue: ""
+    myInputEmailValue: null,
+    myInputPasswordValue: null
   }
   return (
     <div>
-      <h1>me CONNECTER</h1>
+      <h1>ME CONNECTER</h1>
       <form>
         <label>Votre Email</label>
         <input type="text" placeholder="email" name="email" value={state.myInputEmailValue}/>

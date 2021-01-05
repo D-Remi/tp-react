@@ -24,6 +24,16 @@
   color: white;
 }
 
+form{
+  width:60%;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }
